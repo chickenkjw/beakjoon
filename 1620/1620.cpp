@@ -33,7 +33,7 @@ int main() {
 			cout << pokemon[temp] << '\n';
 		}
 		else {
-			// 입력받은 것이 숫자라면 숫자로 바꾸어 벡터의 번호에서 출력
+			// 입력받은 것이 숫자라면 숫자로 바꾸어 벡터의 번호로 이름 출력
 			cout << pokemon_names[stoi(temp)-1] << '\n';
 		}
 	}
